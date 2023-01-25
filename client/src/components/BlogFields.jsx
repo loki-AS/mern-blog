@@ -30,7 +30,7 @@ const BlogFields = ({ user }) => {
         },
       };
       console.log(config)
-      const { data } = await axios.post("http://localhost:3001/api/blog",{
+      const { data } = await axios.post("https://mern-blog-eqoh.onrender.com/api/blog",{
         title,
         subtitle,
         blog,

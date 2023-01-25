@@ -22,7 +22,7 @@ const Login = () => {
       }
 
       const { data } = await axios.post(
-        "http://localhost:3001/api/user/login",
+        "https://mern-blog-eqoh.onrender.com/api/user/login",
         { email, password },
         config        
       )

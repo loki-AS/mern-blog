@@ -25,7 +25,7 @@ const Home = () => {
 
       setLoading(true)
 
-      const { data } = await axios.get("http://localhost:3001/api/blog")
+      const { data } = await axios.get("https://mern-blog-eqoh.onrender.com/api/blog")
 
       setBlogData(data)
 

@@ -23,7 +23,7 @@ const SignUp = () => {
           "Content-type": "application/json",
         },
       }
-      const { data } = await axios.post("http://localhost:3001/api/user", {
+      const { data } = await axios.post("https://mern-blog-eqoh.onrender.com/api/user", {
         name,
         email,
         password,
